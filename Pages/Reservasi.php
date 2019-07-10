@@ -3,7 +3,7 @@
     <div class="row mb-5">
       <div class="col-md-12 mb-5">
         <div class="block-3 d-md-flex">
-            <form>
+            <form method="POST">
             </div>
               <div class="form-group">
                 <label for="nama"> id reservasi:</label>
@@ -38,7 +38,7 @@
                 <label for="alamat"> laporan:</label>
                 <input type="text"name="laporan"class="form-control" id="alamat">
               		
-              <button type="submit"name="submit" value="Add" class="btn btn-default">Submit</button>
+              <button type="submit" name="Submit" value="Add" class="btn btn-default">Submit</button>
             </form>
             <?php
             // Check If form submitted, insert form data into users table.
