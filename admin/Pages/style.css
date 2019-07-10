@@ -806,7 +806,7 @@ ul.setting-panel-list li{
 }
 .breadcome-list {
     padding:20px;
-	background:#1b2a47;
+	background:rgb(214, 202, 202);
 	margin:30px 0px;
 }
 .breadcome-heading .form-control, .breadcome-heading .form-control:focus {
@@ -2454,7 +2454,7 @@ ul.tab-custon-design li.active a, ul.tab-review-design li.active a{
     margin-bottom: 0;
 }
 .form-control {
-    background-color: #152036;
+    background-color: #ececec;
     background-image: none;
     border: 1px solid #152036;
     border-radius: 1px;

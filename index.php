@@ -33,6 +33,7 @@
           <li class="nav-item"><a href="index.php?page=home" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="index.php?page=room" class="nav-link">Room dan restaurant</a></li>
           <li class="nav-item"><a href="index.php?page=reservasi" class="nav-link">Reservasi</a></li>
+          <li class="nav-item"><a href="admin/Pages/login.html" class="nav-link">Login</a></li>
         </ul>
       </div>
     </div>
