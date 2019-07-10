@@ -6,11 +6,6 @@
             <form method="POST">
             </div>
               <div class="form-group">
-                <label for="nama"> id reservasi:</label>
-                <input type="text" name="Id_Reservasi"class="form-control">
-              
-              </div>
-              <div class="form-group">
                 <label for="nama"> id Tamu:</label>
                 <input type="text" name="id_tamu"class="form-control">
               </div>
@@ -37,33 +32,36 @@
               <div class="form-group">
                 <label for="alamat"> laporan:</label>
                 <input type="text"name="laporan"class="form-control" id="alamat">
-              		
+
               <button type="submit" name="Submit" value="Add" class="btn btn-default">Submit</button>
             </form>
             <?php
-            // Check If form submitted, insert form data into users table.
-        if(isset($_POST['Submit'])) {
-        $ID_reservasi = $_POST['Id_Reservasi'];
-        $ID_tamu = $_POST['id_tamu'];
-        $fasilitas = $_POST['fasilitas'];
-        $pesanan = $_POST['pesanan'];
-        $check_in = $_POST['check_in'];
-        $tanggal = $_POST['tanggal'];
-        $tipe = $_POST['tipe'];
-        $laporan = $_POST['laporan'];
+// Check If form submitted, insert form data into users table.
+if (isset($_POST['Submit'])) {
+    $ID_tamu = $_POST['id_tamu'];
+    $fasilitas = $_POST['fasilitas'];
+    $pesanan = $_POST['pesanan'];
+    $check_in = $_POST['check_in'];
+    $tanggal = $_POST['tanggal'];
+    $tipe = $_POST['tipe'];
+    $laporan = $_POST['laporan'];
 
-        
-       
+    // include database connection file
+    include_once "config.php";
+    // Insert user data into table
+    $result = mysqli_query($mysqli, "INSERT INTO tabel_reservasi(ID_tamu,fasilitas,pesanan,check_in,tanggal,tipe,laporan)
+         VALUES('$ID_tamu','$fasilitas','$pesanan','$check_in','$tanggal','$tipe','$laporan')");
+    if ($result) {
+      echo"<script>alert('User added successfully')</script>";
+      echo"<script>document.location='index.php'</script>";
+    }else{
+      echo"<script>alert('Gagal Simpan')</script>";
+    }
 
-        // include database connection file
-        include_once("config.php");
-       // Insert user data into table
-         $result = mysqli_query($mysqli, "INSERT INTO tabel_reservasi(ID_reservasi,ID_tamu,fasilitas,pesanan,check_in,tanggal,tipe,laporan) VALUES('$Id_Reservasi','$id_tamu','$fasilitas','$pesanan','$check_in','$tanggal','$tipe','$laporan')");
- 
-         // Show message when user added
-         echo "User added successfully. <a href='index.php'>View Users</a>"; 
-        }
-        ?>
+    // Show message when user added
+
+}
+?>
         </div>
       </div>
     </div>

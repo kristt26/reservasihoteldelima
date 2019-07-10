@@ -1,91 +1,63 @@
--- phpMyAdmin SQL Dump
--- version 4.8.5
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Waktu pembuatan: 10 Jul 2019 pada 12.09
--- Versi server: 10.1.38-MariaDB
--- Versi PHP: 7.3.2
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
+﻿# Host: localhost  (Version 5.5.5-10.1.35-MariaDB)
+# Date: 2019-07-10 19:43:46
+# Generator: MySQL-Front 6.1  (Build 1.26)
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+#
+# Structure for table "tabel_kamar"
+#
 
---
--- Database: `reservasi delima hotel`
---
-
--- --------------------------------------------------------
-
---
--- Struktur dari tabel `tabel_kamar`
---
-
+DROP TABLE IF EXISTS `tabel_kamar`;
 CREATE TABLE `tabel_kamar` (
-  `ID_kamar` varchar(10) NOT NULL,
-  `fasilitas` varchar(5) NOT NULL,
-  `informasi` int(10) NOT NULL
+  `IdKamar` int(10) NOT NULL AUTO_INCREMENT,
+  `NomorKamar` varchar(4) DEFAULT NULL,
+  `Fasilitas` text NOT NULL,
+  `Type` enum('Standar','Deluxe','Superior','Junior Suite','Executive') NOT NULL DEFAULT 'Standar',
+  `Harga` double DEFAULT NULL,
+  PRIMARY KEY (`IdKamar`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
+#
+# Data for table "tabel_kamar"
+#
 
---
--- Struktur dari tabel `tabel_reservasi`
---
 
+#
+# Structure for table "tabel_reservasi"
+#
+
+DROP TABLE IF EXISTS `tabel_reservasi`;
 CREATE TABLE `tabel_reservasi` (
-  `ID_reservasi` varchar(10) NOT NULL,
+  `ID_reservasi` int(10) NOT NULL AUTO_INCREMENT,
   `ID_tamu` varchar(11) NOT NULL,
-  `fasilitas` varchar(10) NOT NULL,
   `pesanan` int(11) NOT NULL,
-  `check_in` int(11) NOT NULL,
   `tanggal` varchar(30) NOT NULL,
-  `tipe` int(10) NOT NULL,
-  `laporan` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `Status` enum('Reservasi','Check In','Check Out') NOT NULL DEFAULT 'Reservasi',
+  `IdKamar` int(11) DEFAULT NULL,
+  PRIMARY KEY (`ID_reservasi`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
+#
+# Data for table "tabel_reservasi"
+#
 
---
--- Struktur dari tabel `tabel_user`
---
+INSERT INTO `tabel_reservasi` VALUES (0,'',0,'asdfa','Reservasi',NULL),(1,'1',0,'asdfa','Reservasi',NULL);
 
+#
+# Structure for table "tabel_user"
+#
+
+DROP TABLE IF EXISTS `tabel_user`;
 CREATE TABLE `tabel_user` (
-  `ID_user` varchar(1) NOT NULL,
-  `nama` int(1) NOT NULL,
-  `password` int(1) NOT NULL
+  `IdUser` int(1) NOT NULL AUTO_INCREMENT,
+  `Username` varchar(255) DEFAULT NULL,
+  `Password` varchar(255) NOT NULL DEFAULT '0',
+  `Nama` varchar(50) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`IdUser`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Indexes for dumped tables
---
+#
+# Data for table "tabel_user"
+#
 
---
--- Indeks untuk tabel `tabel_kamar`
---
-ALTER TABLE `tabel_kamar`
-  ADD PRIMARY KEY (`ID_kamar`);
-
---
--- Indeks untuk tabel `tabel_reservasi`
---
-ALTER TABLE `tabel_reservasi`
-  ADD PRIMARY KEY (`ID_reservasi`);
-
---
--- Indeks untuk tabel `tabel_user`
---
-ALTER TABLE `tabel_user`
-  ADD PRIMARY KEY (`ID_user`);
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+INSERT INTO `tabel_user` VALUES (1,'Admin','Admin','Administrator');

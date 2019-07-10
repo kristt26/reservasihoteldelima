@@ -4,7 +4,7 @@
  */
 
 $databaseHost = 'localhost';
-$databaseName = 'reservasi delima hotel';
+$databaseName = 'reservasihoteldelima';
 $databaseUsername = 'root';
 $databasePassword = '';
 
