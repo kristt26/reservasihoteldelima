@@ -23,16 +23,15 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">BrightHotel</a>
+      <a class="navbar-brand" href="index.html">delima Hotel</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.php?page=home" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="index.php?page=room" class="nav-link">Rooms</a></li>
-          <li class="nav-item"><a href="index.php?page=service" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="index.php?page=home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="index.php?page=room" class="nav-link">Room dan restaurant</a></li>
           <li class="nav-item"><a href="index.php?page=reservasi" class="nav-link">Reservasi</a></li>
         </ul>
       </div>
@@ -42,35 +41,32 @@
   
   <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block-30 item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 item" style="background-image: url('images/d.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-10">
-              <span class="subheading-sm">Welcome</span>
-              <h2 class="heading">Enjoy a Luxury Experience</h2>
-              <p><a href="#" class="btn py-4 px-5 btn-primary">Learn More</a></p>
-            </div>
+              <span class="subheading-sm">Welcome delima hotel</span>
+              <h2 class="heading">fasilitas kamar yang memuaskan</h2>
+          </div>
           </div>
         </div>
       </div>
-      <div class="block-30 item" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 item" style="background-image: url('images/e.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-10">
-              <span class="subheading-sm">Welcome</span>
-              <h2 class="heading">Simple &amp; Elegant</h2>
-              <p><a href="#" class="btn py-4 px-5 btn-primary">Learn More</a></p>
-            </div>
+              <span class="subheading-sm">Welcome delima hotel</span>
+              <h2 class="heading">Tipe Kamar Full Service &amp; Elegant Untuk Pengunjung</h2>
+             </div>
           </div>
         </div>
       </div>
-      <div class="block-30 item" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 item" style="background-image: url('images/f.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-10">
-              <span class="subheading-sm">Welcome</span>
-              <h2 class="heading">Food &amp; Drinks</h2>
-              <p><a href="#" class="btn py-4 px-5 btn-primary">Learn More</a></p>
+              <span class="subheading-sm">Welcome delima hotel</span>
+              <h2 class="heading">Makanan &amp; Minuman</h2>
             </div>
           </div>
         </div>
@@ -100,7 +96,7 @@
         break;
     }
   }else{
-    include "Pages/Servise.php";
+    //include "Pages/Servise.php";
   }
 
 
@@ -111,10 +107,9 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-6 col-lg-4">
-          <h3 class="heading-section">About Us</h3>
-          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque inventore accusantium tempore dolores sunt.</p>
-          <p><a href="#" class="btn btn-primary px-4">Button</a></p>
-        </div>
+          <h3 class="heading-section">tentang Kami</h3>
+          <p class="mb-5">Baca lebih lanjut dengan klik di sini untuk mendapatkan informasi lebih lanjut.</p>
+         </div>
         <div class="col-md-6 col-lg-4">
           <h3 class="heading-section">Blog</h3>
           <div class="block-21 d-flex mb-4">
@@ -161,7 +156,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="block-23">
-            <h3 class="heading-section">Contact Info</h3>
+            <h3 class="heading-section">Kontak Info</h3>
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
                 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
@@ -177,7 +172,7 @@
         <div class="col-md-12 text-left">
           <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Kelompok 4<i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Asslam,dian,yuli,hans</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>

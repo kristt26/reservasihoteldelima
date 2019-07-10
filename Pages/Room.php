@@ -1,106 +1,14 @@
+
 <div class="site-section bg-light">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12 mb-5">
-            <div class="block-3 d-md-flex">
-              <div
-                class="image"
-                style="background-image: url('images/img_1.jpg'); "
-              ></div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">150</span
-                  ><sub>/per night</sub>
-                </div>
-                <ul class="specs mb-5">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-
-                <p>
-                  <a href="#" class="btn btn-primary py-3 px-5">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-12 mb-5">
-            <div class="block-3 d-md-flex">
-              <div
-                class="image order-2"
-                style="background-image: url('images/img_2.jpg'); "
-              ></div>
-              <div class="text order-1">
-                <h2 class="heading">Family Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">245</span
-                  ><sub>/per night</sub>
-                </div>
-                <ul class="specs mb-5">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-
-                <p>
-                  <a href="#" class="btn btn-primary py-3 px-5">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-12">
-            <div class="block-3 d-md-flex">
-              <div
-                class="image"
-                style="background-image: url('images/img_3.jpg'); "
-              ></div>
-              <div class="text">
-                <h2 class="heading">Presidential Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">450</span
-                  ><sub>/per night</sub>
-                </div>
-                <ul class="specs mb-5">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-
-                <p>
-                  <a href="#" class="btn btn-primary py-3 px-5">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+     
 
         <div class="row mb-5 pt-5 justify-content-center">
           <div class="col-md-7 text-center section-heading">
-            <h2 class="heading">More Rooms</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit, iusto, omnis! Quidem, sint, impedit? Dicta eaque
-              delectus tempora hic, corporis velit doloremque quod quam laborum,
-              nobis iusto autem culpa quaerat!
-            </p>
+            <h2 class="heading">Informasi kamar</h2>
+            
           </div>
         </div>
 
@@ -109,21 +17,19 @@
             <div class="block-34">
               <div class="image">
                 <a href="#"
-                  ><img src="images/img_1.jpg" alt="Image placeholder"
+                  ><img src="images/1.jpg" alt="Image placeholder"
                 /></a>
               </div>
               <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
+                <h2 class="heading">Bachelor Room ( Standart Room )</h2>
                 <div class="price">
-                  <sup>$</sup><span class="number">156</span
-                  ><sub>/per night</sub>
+                  <sup>Rp</sup><span class="number">400.000</span
+                  ><sub>/per malam</sub>
                 </div>
                 <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
                   <li><strong>Categories:</strong> Single</li>
                   <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
+                    <strong>Facilities:</strong> HD flat-screen TV, Telephone,free WiFi, Hot water in bathroom, and Breakfast
                   </li>
                   <li><strong>Size:</strong> 20m<sup>2</sup></li>
                   <li><strong>Bed Type:</strong> One bed</li>
@@ -136,21 +42,46 @@
             <div class="block-34">
               <div class="image">
                 <a href="#"
-                  ><img src="images/img_2.jpg" alt="Image placeholder"
+                  ><img src="images/2.jpg" alt="Image placeholder"
                 /></a>
               </div>
               <div class="text">
-                <h2 class="heading">Family Room</h2>
+                <h2 class="heading">Bachelor Room ( deluxe Room )</h2>
                 <div class="price">
-                  <sup>$</sup><span class="number">245</span
-                  ><sub>/per night</sub>
+                  <sup>Rp</sup><span class="number">500.000</span
+                  ><sub>/per malam</sub>
                 </div>
                 <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
+         
                   <li><strong>Categories:</strong> Single</li>
                   <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
+                    <strong>Facilities:</strong> HD flat-screen TV, Telephone,free WiFi, Hot water in bathroom, and Breakfast.
+                  </li>
+                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
+                  <li><strong>Bed Type:</strong> two bed</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5">
+            <div class="block-34">
+              <div class="image">
+                <a href="#"
+                  ><img src="images/3.jpg" alt="Image placeholder"
+                /></a>
+              </div>
+              <div class="text">
+                <h2 class="heading">Bachelor Room ( Superior Room )</h2>
+                <div class="price">
+                  <sup>Rp</sup><span class="number">550.000</span
+                  ><sub>/per malam</sub>
+                </div>
+                <ul class="specs">
+               
+                  <li><strong>Categories:</strong> Double bad</li>
+                  <li>
+                    <strong>Facilities:</strong> HD flat-screen TV, Telephone,free WiFi, Hot water in bathroom, and Breakfast.
                   </li>
                   <li><strong>Size:</strong> 20m<sup>2</sup></li>
                   <li><strong>Bed Type:</strong> One bed</li>
@@ -163,21 +94,20 @@
             <div class="block-34">
               <div class="image">
                 <a href="#"
-                  ><img src="images/img_3.jpg" alt="Image placeholder"
+                  ><img src="images/4.jpg" alt="Image placeholder"
                 /></a>
               </div>
               <div class="text">
-                <h2 class="heading">Presidential Room</h2>
+                <h2 class="heading">Bachelor Room ( Junior suite Room )</h2>
                 <div class="price">
-                  <sup>$</sup><span class="number">375</span
-                  ><sub>/per night</sub>
+                  <sup>Rp</sup><span class="number">650.000</span
+                  ><sub>/per malam</sub>
                 </div>
                 <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
+
+                  <li><strong>Categories:</strong> Double bad</li>
                   <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
+                    <strong>Facilities:</strong> HD flat-screen TV, Telephone,free WiFi, Hot water in bathroom, and Breakfast.
                   </li>
                   <li><strong>Size:</strong> 20m<sup>2</sup></li>
                   <li><strong>Bed Type:</strong> One bed</li>
@@ -190,21 +120,20 @@
             <div class="block-34">
               <div class="image">
                 <a href="#"
-                  ><img src="images/img_1.jpg" alt="Image placeholder"
+                  ><img src="images/5.jpg" alt="Image placeholder"
                 /></a>
               </div>
               <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
+                <h2 class="heading">Bachelor Room ( Excutive suite Room )</h2>
                 <div class="price">
-                  <sup>$</sup><span class="number">156</span
-                  ><sub>/per night</sub>
+                  <sup>Rp</sup><span class="number">750.000</span
+                  ><sub>/per malam</sub>
                 </div>
                 <ul class="specs">
                   <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
+                  <li><strong>Categories:</strong> Double bed</li>
                   <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
+                    <strong>Facilities:</strong> HD flat-screen TV, Telephone,free WiFi, Hot water in bathroom, and Breakfast.
                   </li>
                   <li><strong>Size:</strong> 20m<sup>2</sup></li>
                   <li><strong>Bed Type:</strong> One bed</li>
@@ -212,246 +141,501 @@
               </div>
             </div>
           </div>
+          <div class="site-section bg-light">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-7 section-heading">
+        <span class="subheading-sm">Menus</span>
+        <h2 class="heading">Restaurant Menu</h2>
+      </div>
+    </div>
 
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"
-                  ><img src="images/img_2.jpg" alt="Image placeholder"
-                /></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Family Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">245</span
-                  ><sub>/per night</sub>
+    <div class="block-35">
+      <ul class="nav" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="pills-home-tab"
+            data-toggle="pill"
+            href="#pills-home"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+            >Breakfast</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            href="#pills-profile"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >Lunch</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#pills-contact"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >Dinner</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+          <div class="row">
+            <div class="col-md-12 block-13">
+              <div class="nonloop-block-13 owl-carousel">
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/a1.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">nasi goreng seafood</h2>
+                      <div class="price">
+                        <sup>Rp</sup><span class="number">30.000</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/a4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">bubur ayam</h2>
+                      <div class="price">
+                        <sup>Rp</sup><span class="number">30.000</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_3.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Grilled Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">45.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Spicy Noodles</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">33.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_1.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Asparagus</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">30.50</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_2.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Grilled Top Sirloin Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">23.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_3.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Grilled Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">45.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Spicy Noodles</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">33.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"
-                  ><img src="images/img_3.jpg" alt="Image placeholder"
-                /></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Presidential Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">375</span
-                  ><sub>/per night</sub>
+        <div
+          class="tab-pane fade"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+        >
+          <div class="row">
+            <div class="col-md-12 block-13">
+              <div class="nonloop-block-13 owl-carousel">
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_2.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Grilled Top Sirloin Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">23.45</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_1.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Asparagus</h2>
+                      <div class="price">
+                       <sup>$</sup><span class="number">30.50</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_3.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Grilled Steak</h2>
+                     <div class="price">
+                        <sup>$</sup><span class="number">45.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Spicy Noodles</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">33.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_1.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Asparagus</h2>
+                    <div class="price">
+                        <sup>$</sup><span class="number">30.50</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_2.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Grilled Top Sirloin Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">23.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_3.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Grilled Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">45.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Spicy Noodles</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">33.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"
-                  ><img src="images/img_1.jpg" alt="Image placeholder"
-                /></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">156</span
-                  ><sub>/per night</sub>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-contact"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <div class="row">
+            <div class="col-md-12 block-13">
+              <div class="nonloop-block-13 owl-carousel">
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_3.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Grilled Steak</h2>
+                     <div class="price">
+                        <sup>$</sup><span class="number">45.45</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"
-                  ><img src="images/img_2.jpg" alt="Image placeholder"
-                /></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Family Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">245</span
-                  ><sub>/per night</sub>
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_1.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Asparagus</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">30.50</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"
-                  ><img src="images/img_3.jpg" alt="Image placeholder"
-                /></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Presidential Room</h2>
-                <div class="price">
-                  <sup>$</sup><span class="number">375</span
-                  ><sub>/per night</sub>
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_2.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Grilled Top Sirloin Steak</h2>
+                      <div class="price">
+                        <sup>$</sup><span class="number">23.45</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li>
-                    <strong>Facilities:</strong> Closet with hangers, HD
-                    flat-screen TV, Telephone
-                  </li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Spicy Noodles</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ratione quo vel aut ab qui quas!
+                      </p>
+                      <div class="price">
+                        <sup>$</sup><span class="number">33.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_1.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Asparagus</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ratione quo vel aut ab qui quas!
+                      </p>
+                      <div class="price">
+                        <sup>$</sup><span class="number">30.50</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_2.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Grilled Top Sirloin Steak</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ratione quo vel aut ab qui quas!
+                      </p>
+                      <div class="price">
+                        <sup>$</sup><span class="number">23.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_3.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Egg &amp; Grilled Steak</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ratione quo vel aut ab qui quas!
+                      </p>
+                      <div class="price">
+                        <sup>$</sup><span class="number">45.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="block-34">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="images/menu_4.jpg" alt="Image placeholder"
+                      /></a>
+                    </div>
+                    <div class="text">
+                      <h2 class="heading">Spicy Noodles</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ratione quo vel aut ab qui quas!
+                      </p>
+                      <div class="price">
+                        <sup>$</sup><span class="number">33.45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-7 section-heading">
-            <span class="subheading-sm">Reviews</span>
-            <h2 class="heading">Guest Reviews</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="block-33">
-              <div class="vcard d-flex mb-3">
-                <div class="image align-self-center">
-                  <img src="images/person_3.jpg" alt="Person here" />
-                </div>
-                <div class="name-text align-self-center">
-                  <h2 class="heading">Martin Newmansfield</h2>
-                  <span class="meta">Satisfied Customer</span>
-                </div>
-              </div>
-              <div class="text">
-                <blockquote>
-                  <p>
-                    &rdquo; Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque
-                    perferendis non dolorem fugiat voluptatibus vitae error ad
-                    itaque inventore accusantium tempore dolores sunt. &ldquo;
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="block-33">
-              <div class="vcard d-flex mb-3">
-                <div class="image align-self-center">
-                  <img src="images/person_2.jpg" alt="Person here" />
-                </div>
-                <div class="name-text align-self-center">
-                  <h2 class="heading">Nancy Green</h2>
-                  <span class="meta">Satisfied Customer</span>
-                </div>
-              </div>
-              <div class="text">
-                <blockquote>
-                  <p>
-                    &rdquo; Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque
-                    perferendis non dolorem fugiat voluptatibus vitae error ad
-                    itaque inventore accusantium tempore dolores sunt. &ldquo;
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="block-33">
-              <div class="vcard d-flex mb-3">
-                <div class="image align-self-center">
-                  <img src="images/person_1.jpg" alt="Person here" />
-                </div>
-                <div class="name-text align-self-center">
-                  <h2 class="heading">Elizabeth Charles</h2>
-                  <span class="meta">Satisfied Customer</span>
-                </div>
-              </div>
-              <div class="text">
-                <blockquote>
-                  <p>
-                    &rdquo; Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque
-                    perferendis non dolorem fugiat voluptatibus vitae error ad
-                    itaque inventore accusantium tempore dolores sunt. &ldquo;
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
+  </div>
+</div>
         </div>
       </div>
     </div>
-
-    <div class="block-22">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="heading mb-4">Be Sure To Get Our Promos</h2>
-            <form action="#" class="subscribe">
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control email"
-                  placeholder="Enter your email"
-                />
-                <!-- <input type="submit" class="btn btn-primary submit"> -->
-                <button type="submit" class="btn btn-primary submit">
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+    
